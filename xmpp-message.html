@@ -1,0 +1,22 @@
+<link rel="import" href="../paper-input/paper-input.html"/>
+
+<dom-module id="xmpp-message">
+	<template>
+		<paper-input label="Send an instant message (IM) to [[to]]"
+					 value="[[body]]" readonly></paper-input>
+		<!-- https://xmpp.org/extensions/xep-0147.html -->
+		<a href="xmpp:frank.ren@oracle.com/backwater?message;body=[[encode(body)]]">Launch IM Client</a>
+	</template>
+	<script>
+		Polymer({
+			is: "xmpp-message",
+			properties: {
+				to: String,
+				body: String,
+			},
+			encode: function(body) {
+				return encodeURIComponent(body);
+			}
+		});
+	</script>
+</dom-module>

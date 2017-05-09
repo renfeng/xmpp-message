@@ -1,0 +1,20 @@
+{
+  "name": "xmpp-message",
+  "homepage": "https://github.com/renfeng/xmpp-message",
+  "authors": [
+    "Frank R. <renfeng.cn@gmail.com>"
+  ],
+  "description": "",
+  "main": "xmpp-message.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-input": "PolymerElements/paper-input#^1.1.10"
+  }
+}
