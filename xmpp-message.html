@@ -5,7 +5,7 @@
 		<paper-input label="Send an instant message (IM) to [[to]]"
 					 value="[[body]]" readonly></paper-input>
 		<!-- https://xmpp.org/extensions/xep-0147.html -->
-		<a href="xmpp:[[to]]/backwater?message;body=[[encode(body)]]">Launch IM Client</a>
+		<a href="xmpp:[[to]]?message;body=[[encode(body)]]">Launch IM Client</a>
 	</template>
 	<script>
 		Polymer({
