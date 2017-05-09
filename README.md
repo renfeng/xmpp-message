@@ -60,7 +60,7 @@ White space in message body is not handled properly, [Re: URI protocol for invok
         <td>Ignores message body
 
 ```
-"C:\Program Files (x86)\Pandion\Application\Pandion.exe" xmpp:frank.ren@oracle.com/backwater?message;body=~build%20rocknroll
+"C:\Program Files (x86)\Pandion\Application\Pandion.exe" xmpp:renfeng.cn@gmail.com?message;body=I%20love%20webcomponents!
 ```
 </td>
         <td>n/a</td>
