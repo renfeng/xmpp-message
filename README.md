@@ -20,6 +20,8 @@
 
 Recommended XMPP client, [Psi - The cross-platform XMPP client for power users](http://psi-im.org/)
 
+Register psi as XMPP URL handler for [Windows](xmpp.reg), and for [Linux](xmpp.sh).
+
 <table>
     <tr>
         <th>Client</th>
@@ -29,7 +31,6 @@ Recommended XMPP client, [Psi - The cross-platform XMPP client for power users](
     <tr>
         <td>psi</td>
         <td>
-
 
 ```
 "C:\Program Files (x86)\Psi\Psi.exe" --uri=xmpp:renfeng.cn@gmail.com?message;body=I%20love%20webcomponents!
